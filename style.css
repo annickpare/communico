@@ -1,0 +1,55 @@
+/*
+Theme Name: Communico
+Theme URI: http://sofad.qc.ca
+Author: SOFAD
+Author URI: http://sofad.qc.ca
+Description: Theme for project Communico
+Version: 0.1
+*/
+
+.pagination {
+    text-align: center;
+}
+
+.navibar {
+    background: #EEE;
+}
+
+.is-accordion-submenu {
+    padding-left: 1em;
+}
+
+/* Lien de travail */
+.raw-link {
+    margin-top: 3em;
+    border: 1px dashed gray;
+    border-radius: 3px;
+    text-align: right;
+    clear:both;
+}
+
+button {
+    color: white;
+    padding: 0.85em 1em;
+    border: 1px solid transparent;
+    border-radius: 0;
+    background-color: #1779ba;
+    cursor: pointer;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+}
+
+button:hover {
+    background-color: #1072b3;
+}
+
+/* Contrer certains effets indésirables de Foundation sur les interactivités/questions SOFADauteur */
+
+.sa-interactivity table tbody, .sa-interactivity table tbody tr,
+.sa-question table tbody, .sa-question table tbody tr {
+    background-color: transparent;
+}
+
+.sa-question td, .sa-question td.label {
+    background: none;
+    display: table-cell;
+}
