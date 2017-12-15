@@ -1,0 +1,9 @@
+# Comment 
+tempfile.txt
+.DS_Store
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9] # For all logs with a number after the ".log". Ex. "file.log3"
+assets/videos/
+!assets/videos/tour_*.mp4 # Will ignore all videos except those beginning with "tour_" and ending with ".mp4"
