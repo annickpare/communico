@@ -84,6 +84,7 @@ blockquote footer{
   font-weight: 600;
   text-align: right;
 }
+
 blockquote.simple footer{
   font-size: inherit;
 }
@@ -145,7 +146,6 @@ button:hover{
 .home button{
   background: #c4161c;
 }
-
 
 .aligncenter{
   text-align: center;
@@ -424,10 +424,6 @@ table.domaine td{
   padding-left: 0;
   padding-right: 0;
 }
-
-/*a:not([href]){
-  cursor: default;
-}*/
 
 #wrapper{
   min-height: 100%;
