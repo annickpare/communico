@@ -970,11 +970,11 @@ main nav ul{
   text-transform: uppercase;
 }
 
-.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a{
+.dropdown.menu.medium-horizontal >li.is-dropdown-submenu-parent >a{
   padding-right: 1rem;
 }
 
-.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after{
+.dropdown.menu.medium-horizontal >li.is-dropdown-submenu-parent >a::after{
   display: none;
 }
 
@@ -989,7 +989,7 @@ main nav ul{
   border-left: 1px solid rgb(88, 112, 120);
 }
 
-.dropdown.menu.medium-horizontal > li.opens-right > .is-dropdown-submenu{
+.dropdown.menu.medium-horizontal >li.opens-right >.is-dropdown-submenu{
   left: -1px;
 }
 
@@ -997,7 +997,7 @@ ul ul.menu li + li{
   margin-left: 0;
 }
 
-ul ul.menu > li > a{
+ul ul.menu >æli >a{
   background: #fff;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1038,8 +1038,7 @@ ul ul.menu .active > a:focus{
 ul ul.menu .active > a::before{
   border-left: 8px solid #c3161c;
 }
-
-
+æ
 .icone{
   float: right;
 }
@@ -1161,8 +1160,7 @@ ul ul.menu .active > a::before{
   vertical-align: middle;
 }
 
-/* Intéractivités, questions et tests */
-
+/* Intéractivités, questions et tests */æ
 .audio,
 .video{
   margin-top: 30px;
@@ -1177,6 +1175,7 @@ ul ul.menu .active > a::before{
   width: 30px;
   vertical-align: middle;
 }
+æ
 .video::before{
   content: url('../img/png/icone_video.png');
 }
@@ -1271,8 +1270,7 @@ button.btn-correct{
   position: relative;
   text-transform: uppercase;
 }
-
-
+æ
 .accordeon.btn-valider .toggler.active {
   background: #c4161c url('../img/png/btn-corrige.png') no-repeat 95% center;
 }
@@ -1288,8 +1286,7 @@ button.btn-correct{
 }*/
 
 .push,
-#bottom-bar/*,
-.zone-page-suivante*/{
+#bottom-bar{
   height: 67px;
 }
 
@@ -1306,7 +1303,6 @@ button.btn-correct{
 }
 
 /* MEDIA QUERIES */
-
 @media screen and (min-width: 641px) {
 
   .home #wrapper,
