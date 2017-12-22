@@ -436,7 +436,6 @@ table.domaine td{
   background-image: url("../img/png/phare_section.png"), url("../img/png/phare_sectionBG.png");
   background-position: center bottom;
   background-repeat: no-repeat, repeat-y;
-  /*margin-bottom: -30px;*/
   position: relative;
   z-index: 0;
 }
@@ -463,8 +462,6 @@ table.domaine td{
   z-index: -1;
 }
 
-
-
 .home .entry-content ul li,
 .page-template-homepage .entry-content ul li{
   margin-left: 0;
@@ -475,6 +472,7 @@ table.domaine td{
 .page-template-homepage .entry-content ul li::before{
   display: none;
 }
+
 /* ********************************** */
 /********* PAGE PRINCIPALE ************/
 /* ********************************** */
