@@ -631,7 +631,6 @@ table.domaine td{
   text-decoration: none;
 }
 
-
 /* Sidebar */
 .titre-theme{
   background: #597178;
@@ -809,7 +808,6 @@ table.domaine td{
 
 #menu-themes a{
   color: #597178;
-  /*color: #333c42;*/
   display: block;
   padding: 5px 16px;
 }
