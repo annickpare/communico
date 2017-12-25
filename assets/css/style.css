@@ -1160,7 +1160,7 @@ ul ul.menu .active > a::before{
   vertical-align: middle;
 }
 
-/* Intéractivités, questions et tests */æ
+/* Intéractivités, questions et tests */
 .audio,
 .video{
   margin-top: 30px;
@@ -1284,6 +1284,8 @@ button.btn-correct{
   bottom: 0;
   position: absolute;
 }*/
+
+/*Test déclaration GitHub*/
 
 .push,
 #bottom-bar{
